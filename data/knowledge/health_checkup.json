@@ -1,0 +1,678 @@
+[
+  {
+    "id": "checkup_001",
+    "category": "health_checkup",
+    "test_name": "血压(BP)",
+    "description": "血液在血管中流动时对血管壁的侧压力",
+    "normal_range": {
+      "收缩压": "90-120 mmHg",
+      "舒张压": "60-80 mmHg"
+    },
+    "abnormal_results": {
+      "高血压": "收缩压≥140和/或舒张压≥90 mmHg",
+      "低血压": "收缩压<90和/或舒张压<60 mmHg",
+      "正常高值": "收缩压120-139和/或舒张压80-89 mmHg"
+    },
+    "clinical_significance": [
+      "高血压是心血管疾病的重要危险因素",
+      "需多次不同日测量确认",
+      "测量前需静坐休息5分钟"
+    ],
+    "follow_up": [
+      "正常高值：改善生活方式，定期监测",
+      "高血压：就医评估，可能需要药物治疗"
+    ]
+  },
+  {
+    "id": "checkup_002",
+    "category": "health_checkup",
+    "test_name": "空腹血糖(FPG)",
+    "description": "空腹至少8小时后测量的血糖水平",
+    "normal_range": "3.9-6.1 mmol/L",
+    "abnormal_results": {
+      "空腹血糖受损": "6.1-7.0 mmol/L",
+      "糖尿病": "≥7.0 mmol/L",
+      "低血糖": "<3.9 mmol/L"
+    },
+    "clinical_significance": [
+      "诊断糖尿病的重要指标",
+      "需结合餐后血糖和HbA1c综合判断",
+      "应激、感染可能影响结果"
+    ],
+    "preparation": [
+      "空腹至少8-10小时",
+      "可少量饮水",
+      "避免剧烈运动和情绪波动"
+    ]
+  },
+  {
+    "id": "checkup_003",
+    "category": "health_checkup",
+    "test_name": "餐后2小时血糖(2hPG)",
+    "description": "进食后2小时测量的血糖水平",
+    "normal_range": "<7.8 mmol/L",
+    "abnormal_results": {
+      "糖耐量受损": "7.8-11.1 mmol/L",
+      "糖尿病": "≥11.1 mmol/L"
+    },
+    "clinical_significance": [
+      "反映糖代谢能力",
+      "较空腹血糖更敏感",
+      "诊断糖尿病的重要依据"
+    ],
+    "preparation": [
+      "从进食第一口开始计时",
+      "进食含75-100g碳水化合物的食物",
+      "期间可适量饮水，不能吸烟"
+    ]
+  },
+  {
+    "id": "checkup_004",
+    "category": "health_checkup",
+    "test_name": "糖化血红蛋白(HbA1c)",
+    "description": "反映过去2-3个月的平均血糖水平",
+    "normal_range": "4.0%-6.0%",
+    "abnormal_results": {
+      "糖尿病前期": "5.7%-6.4%",
+      "糖尿病": "≥6.5%"
+    },
+    "clinical_significance": [
+      "评估长期血糖控制的金标准",
+      "不受短期饮食和运动影响",
+      "每3-6个月检测一次"
+    ],
+    "advantages": [
+      "无需空腹",
+      "反映长期血糖控制",
+      "与糖尿病并发症风险相关"
+    ]
+  },
+  {
+    "id": "checkup_005",
+    "category": "health_checkup",
+    "test_name": "总胆固醇(TC)",
+    "description": "血液中所有胆固醇的总和",
+    "normal_range": "<5.2 mmol/L",
+    "abnormal_results": {
+      "边缘升高": "5.2-6.2 mmol/L",
+      "升高": "≥6.2 mmol/L"
+    },
+    "clinical_significance": [
+      "高胆固醇是动脉粥样硬化的危险因素",
+      "需结合LDL-C和HDL-C综合评估",
+      "影响因素包括饮食、遗传、代谢"
+    ],
+    "lifestyle_modifications": [
+      "减少饱和脂肪摄入",
+      "增加膳食纤维",
+      "规律运动",
+      "控制体重"
+    ]
+  },
+  {
+    "id": "checkup_006",
+    "category": "health_checkup",
+    "test_name": "低密度脂蛋白胆固醇(LDL-C)",
+    "description": "\"坏\"胆固醇，过多易沉积在血管壁",
+    "normal_range": "<3.4 mmol/L",
+    "abnormal_results": {
+      "边缘升高": "3.4-4.1 mmol/L",
+      "升高": "≥4.1 mmol/L"
+    },
+    "risk_levels": {
+      "低危": "目标<3.4 mmol/L",
+      "中危": "目标<2.6 mmol/L",
+      "高危": "目标<1.8 mmol/L",
+      "极高危": "目标<1.4 mmol/L"
+    },
+    "clinical_significance": [
+      "动脉粥样硬化的主要危险因素",
+      "降脂治疗的首要目标",
+      "心血管疾病风险预测指标"
+    ]
+  },
+  {
+    "id": "checkup_007",
+    "category": "health_checkup",
+    "test_name": "高密度脂蛋白胆固醇(HDL-C)",
+    "description": "\"好\"胆固醇，有助于清除血管壁胆固醇",
+    "normal_range": "≥1.0 mmol/L",
+    "abnormal_results": {
+      "降低": "<1.0 mmol/L（心血管危险因素）"
+    },
+    "clinical_significance": [
+      "具有血管保护作用",
+      "水平越高心血管风险越低",
+      "受遗传、运动、吸烟等影响"
+    ],
+    "how_to_increase": [
+      "规律有氧运动",
+      "戒烟",
+      "减肥",
+      "摄入健康脂肪（橄榄油、坚果）"
+    ]
+  },
+  {
+    "id": "checkup_008",
+    "category": "health_checkup",
+    "test_name": "甘油三酯(TG)",
+    "description": "血液中的一种脂肪",
+    "normal_range": "<1.7 mmol/L",
+    "abnormal_results": {
+      "边缘升高": "1.7-2.3 mmol/L",
+      "升高": "≥2.3 mmol/L"
+    },
+    "clinical_significance": [
+      "高TG增加胰腺炎和心血管风险",
+      "受饮食影响较大",
+      "需空腹检测"
+    ],
+    "factors_increasing_tg": [
+      "高糖高脂饮食",
+      "酒精",
+      "肥胖",
+      "缺乏运动",
+      "某些药物"
+    ]
+  },
+  {
+    "id": "checkup_009",
+    "category": "health_checkup",
+    "test_name": "血尿酸(UA)",
+    "description": "嘌呤代谢产物",
+    "normal_range": {
+      "男性": "208-428 μmol/L",
+      "女性": "155-357 μmol/L"
+    },
+    "abnormal_results": {
+      "高尿酸血症": "男性>420 μmol/L，女性>360 μmol/L"
+    },
+    "clinical_significance": [
+      "高尿酸可导致痛风",
+      "与肾病、心血管疾病相关",
+      "无症状高尿酸也需关注"
+    ],
+    "prevention": [
+      "低嘌呤饮食",
+      "限制酒精（特别是啤酒）",
+      "多饮水",
+      "控制体重"
+    ]
+  },
+  {
+    "id": "checkup_010",
+    "category": "health_checkup",
+    "test_name": "肌酐(Cr)",
+    "description": "肌肉代谢产物，由肾脏排泄",
+    "normal_range": {
+      "男性": "57-111 μmol/L",
+      "女性": "41-73 μmol/L"
+    },
+    "abnormal_results": {
+      "升高": "提示肾功能可能受损"
+    },
+    "clinical_significance": [
+      "评估肾功能的重要指标",
+      "受肌肉量影响",
+      "需结合年龄、性别综合判断"
+    ],
+    "notes": [
+      "肌肉量大者肌酐可偏高",
+      "老年人肌酐可能高估肾功能",
+      "需结合eGFR综合评估"
+    ]
+  },
+  {
+    "id": "checkup_011",
+    "category": "health_checkup",
+    "test_name": "估算肾小球滤过率(eGFR)",
+    "description": "评估肾脏过滤功能的指标",
+    "normal_range": "≥90 ml/min/1.73m²",
+    "abnormal_results": {
+      "轻度下降": "60-89 ml/min/1.73m²",
+      "中度下降": "30-59 ml/min/1.73m²",
+      "重度下降": "15-29 ml/min/1.73m²",
+      "肾衰竭": "<15 ml/min/1.73m²"
+    },
+    "clinical_significance": [
+      "反映肾功能分期",
+      "比单纯肌酐更准确",
+      "是CKD诊断和分期的依据"
+    ],
+    "kidney_disease_stages": {
+      "1期": "eGFR≥90，肾功能正常或轻度下降",
+      "2期": "eGFR 60-89，轻度下降",
+      "3期": "eGFR 30-59，中度下降",
+      "4期": "eGFR 15-29，重度下降",
+      "5期": "eGFR<15，肾衰竭"
+    }
+  },
+  {
+    "id": "checkup_012",
+    "category": "health_checkup",
+    "test_name": "尿常规-尿蛋白",
+    "description": "尿液中蛋白质的含量",
+    "normal_range": "阴性或<150mg/24h",
+    "abnormal_results": {
+      "蛋白尿": "尿蛋白阳性或>150mg/24h"
+    },
+    "clinical_significance": [
+      "正常情况下尿中蛋白极少",
+      "蛋白尿提示肾脏或全身疾病",
+      "需结合血肌酐综合判断"
+    ],
+    "causes": [
+      "肾脏疾病（肾炎、肾病综合征）",
+      "糖尿病肾病",
+      "高血压肾病",
+      "剧烈运动、发热等生理性蛋白尿"
+    ]
+  },
+  {
+    "id": "checkup_013",
+    "category": "health_checkup",
+    "test_name": "肝功能-ALT(丙氨酸转氨酶)",
+    "description": "主要存在于肝细胞中",
+    "normal_range": "9-50 U/L（参考值因实验室而异）",
+    "abnormal_results": {
+      "升高": "提示肝细胞可能受损"
+    },
+    "clinical_significance": [
+      "肝损伤敏感指标",
+      "非特异性，需结合其他指标",
+      "轻度升高也需关注"
+    ],
+    "causes_of_elevation": [
+      "病毒性肝炎",
+      "脂肪肝",
+      "酒精性肝病",
+      "药物性肝损伤",
+      "剧烈运动"
+    ]
+  },
+  {
+    "id": "checkup_014",
+    "category": "health_checkup",
+    "test_name": "肝功能-AST(天冬氨酸转氨酶)",
+    "description": "存在于肝细胞和心肌中",
+    "normal_range": "15-40 U/L",
+    "abnormal_results": {
+      "升高": "提示肝细胞或心肌损伤"
+    },
+    "clinical_significance": [
+      "AST/ALT比值有诊断意义",
+      "比值>2提示酒精性肝病",
+      "比值<1提示病毒性肝炎"
+    ],
+    "other_sources": [
+      "心肌细胞",
+      "骨骼肌",
+      "肾脏"
+    ]
+  },
+  {
+    "id": "checkup_015",
+    "category": "health_checkup",
+    "test_name": "血常规-白细胞(WBC)",
+    "description": "免疫细胞，参与防御感染",
+    "normal_range": "4.0-10.0 ×10⁹/L",
+    "abnormal_results": {
+      "升高": "提示感染、炎症、应激或血液疾病",
+      "降低": "提示免疫力低下或骨髓抑制"
+    },
+    "clinical_significance": [
+      "感染的重要指标",
+      "需结合分类计数综合判断",
+      "某些药物可影响WBC"
+    ],
+    "types": {
+      "中性粒细胞": "细菌感染时升高",
+      "淋巴细胞": "病毒感染时升高",
+      "嗜酸性粒细胞": "过敏或寄生虫感染时升高"
+    }
+  },
+  {
+    "id": "checkup_016",
+    "category": "health_checkup",
+    "test_name": "血常规-血红蛋白(Hb)",
+    "description": "红细胞中携带氧气的蛋白质",
+    "normal_range": {
+      "成年男性": "120-160 g/L",
+      "成年女性": "110-150 g/L",
+      "孕妇": "100-130 g/L"
+    },
+    "abnormal_results": {
+      "贫血": "低于正常下限",
+      "红细胞增多": "高于正常上限"
+    },
+    "clinical_significance": [
+      "诊断贫血的主要指标",
+      "需结合红细胞指数综合判断",
+      "需排除血液稀释因素"
+    ],
+    "anemia_types": [
+      "缺铁性贫血（小细胞低色素）",
+      "巨幼细胞性贫血（大细胞性）",
+      "地中海贫血（小细胞低色素）"
+    ]
+  },
+  {
+    "id": "checkup_017",
+    "category": "health_checkup",
+    "test_name": "血常规-血小板(PLT)",
+    "description": "参与止血和凝血",
+    "normal_range": "100-300 ×10⁹/L",
+    "abnormal_results": {
+      "减少": "<100 ×10⁹/L，出血风险增加",
+      "增多": ">300 ×10⁹/L，血栓风险增加"
+    },
+    "clinical_significance": [
+      "评估止血功能",
+      "极低时有自发性出血风险",
+      "需结合临床症状判断"
+    ],
+    "causes": {
+      "减少": "免疫性、感染、药物、骨髓疾病",
+      "增多": "感染、炎症、缺铁、骨髓增殖性疾病"
+    }
+  },
+  {
+    "id": "checkup_018",
+    "category": "health_checkup",
+    "test_name": "凝血功能-PT/INR",
+    "description": "凝血酶原时间和国际标准化比值",
+    "normal_range": {
+      "PT": "11-15秒",
+      "INR": "0.8-1.2"
+    },
+    "abnormal_results": {
+      "延长": "凝血功能异常，出血风险增加"
+    },
+    "clinical_significance": [
+      "评估外源性凝血途径",
+      "监测华法林抗凝疗效",
+      "肝功能评估的辅助指标"
+    ],
+    "uses": [
+      "术前凝血功能评估",
+      "抗凝治疗监测",
+      "肝功能评估"
+    ]
+  },
+  {
+    "id": "checkup_019",
+    "category": "health_checkup",
+    "test_name": "肿瘤标志物-CEA",
+    "description": "癌胚抗原",
+    "normal_range": "<5 ng/mL（吸烟者可稍高）",
+    "clinical_significance": [
+      "主要用于结直肠癌的随访监测",
+      "不是癌症筛查的可靠指标",
+      "良性疾病也可升高"
+    ],
+    "limitations": [
+      "敏感性不高，早期癌症可能正常",
+      "特异性不高，良性疾病也可升高",
+      "不应单独用于癌症诊断"
+    ],
+    "proper_use": [
+      "联合其他标志物",
+      "动态观察变化趋势",
+      "结合影像学检查",
+      "主要用于疗效监测和复发筛查"
+    ]
+  },
+  {
+    "id": "checkup_020",
+    "category": "health_checkup",
+    "test_name": "肿瘤标志物-AFP",
+    "description": "甲胎蛋白",
+    "normal_range": "<20 ng/mL",
+    "clinical_significance": [
+      "原发性肝癌的诊断和监测",
+      "生殖细胞肿瘤的标志",
+      "妊娠期生理性升高"
+    ],
+    "limitations": [
+      "早期肝癌敏感性有限",
+      "良性肝病也可升高",
+      "需结合影像学和临床"
+    ],
+    "high_risk_groups": [
+      "慢性乙肝/丙肝",
+      "肝硬化",
+      "肝癌家族史",
+      "建议每6个月检测一次"
+    ]
+  },
+  {
+    "id": "checkup_021",
+    "category": "health_checkup",
+    "test_name": "肿瘤标志物-PSA",
+    "description": "前列腺特异性抗原",
+    "normal_range": "<4 ng/mL",
+    "abnormal_results": {
+      "灰区": "4-10 ng/mL",
+      "升高": ">10 ng/L"
+    },
+    "clinical_significance": [
+      "前列腺癌的筛查指标",
+      "需结合直肠指诊和超声",
+      "前列腺炎、增生也可升高"
+    ],
+    "factors_affecting_psa": [
+      "前列腺按摩后升高",
+      "前列腺炎",
+      "前列腺增生",
+      "射精后升高"
+    ],
+    "recommendations": [
+      "50岁以上男性定期筛查",
+      "高危人群（家族史）45岁开始",
+      "异常时需泌尿外科就诊"
+    ]
+  },
+  {
+    "id": "checkup_022",
+    "category": "health_checkup",
+    "test_name": "甲状腺功能-TSH",
+    "description": "促甲状腺激素",
+    "normal_range": "0.27-4.2 mIU/L",
+    "abnormal_results": {
+      "TSH升高": "提示甲状腺功能减退",
+      "TSH降低": "提示甲状腺功能亢进"
+    },
+    "clinical_significance": [
+      "甲功最敏感的指标",
+      "原发性甲减时TSH先于T3/T4变化",
+      "筛查甲功的首选指标"
+    ],
+    "interpretation": [
+      "TSH↑、FT4↓：原发性甲减",
+      "TSH↓、FT4↑：甲亢",
+      "需结合T3、T4综合判断"
+    ]
+  },
+  {
+    "id": "checkup_023",
+    "category": "health_checkup",
+    "test_name": "甲状腺功能-FT3、FT4",
+    "description": "游离T3和游离T4",
+    "normal_range": {
+      "FT3": "3.1-6.8 pmol/L",
+      "FT4": "12-22 pmol/L"
+    },
+    "clinical_significance": [
+      "反映甲状腺激素的实际活性",
+      "比总T3、总T4更准确",
+      "不受蛋白结合影响"
+    ],
+    "patterns": {
+      "甲亢": "FT3↑、FT4↑、TSH↓",
+      "甲减": "FT3↓、FT4↓、TSH↑",
+      "亚临床甲亢": "FT3、FT4正常、TSH↓",
+      "亚临床甲减": "FT3、FT4正常、TSH↑"
+    }
+  },
+  {
+    "id": "checkup_024",
+    "category": "health_checkup",
+    "test_name": "乙肝五项",
+    "description": "乙肝病毒血清学标志物",
+    "interpretations": {
+      "大三阳": "HBsAg(+)、HBeAg(+)、HBcAb(+), 病毒复制活跃",
+      "小三阳": "HBsAg(+)、HBeAb(+)、HBcAb(+), 病毒复制较低",
+      "康复": "HBsAb(+)、其他阴性，有免疫力",
+      "未感染": "全阴性或仅HBcAb(+)"
+    },
+    "clinical_significance": [
+      "诊断乙肝感染状态",
+      "评估病毒复制活动",
+      "指导治疗和预防"
+    ],
+    "follow_up": [
+      "HBsAg阳性者定期监测肝功能和病毒载量",
+      "乙肝家族史建议接种乙肝疫苗",
+      "大三阳需专科就诊评估"
+    ]
+  },
+  {
+    "id": "checkup_025",
+    "category": "health_checkup",
+    "test_name": "心电图(ECG)",
+    "description": "记录心脏电活动",
+    "normal_findings": [
+      "窦性心律(60-100次/分)",
+      "正常心电轴",
+      "无明显ST-T改变"
+    ],
+    "common_abnormalities": {
+      "窦性心动过速": "心率>100次/分",
+      "窦性心动过缓": "心率<60次/分",
+      "ST-T改变": "可能提示心肌缺血",
+      "早搏": "期前收缩"
+    },
+    "clinical_significance": [
+      "诊断心律失常",
+      "发现心肌缺血",
+      "评估心脏结构",
+      "正常心电图不能排除心脏病"
+    ]
+  },
+  {
+    "id": "checkup_026",
+    "category": "health_checkup",
+    "test_name": "胸部X光/CT",
+    "description": "胸部影像学检查",
+    "common_findings": [
+      "纹理增多：可能提示支气管炎",
+      "结节：需评估大小、形态、密度",
+      "钙化灶：多为陈旧性病变",
+      "胸腔积液：需寻找病因"
+    ],
+    "lung_nodule_followup": {
+      "<6mm": "年度随访",
+      "6-8mm": "6-12个月随访",
+      ">8mm": "进一步检查（增强CT、PET等）"
+    },
+    "recommendations": [
+      "吸烟者建议低剂量CT筛查肺癌",
+      "发现结节不必恐慌，大部分良性",
+      "遵医嘱定期复查"
+    ]
+  },
+  {
+    "id": "checkup_027",
+    "category": "health_checkup",
+    "test_name": "腹部B超",
+    "description": "腹部器官超声检查",
+    "organs_examined": [
+      "肝脏",
+      "胆囊",
+      "胰腺",
+      "脾脏",
+      "肾脏"
+    ],
+    "common_findings": {
+      "脂肪肝": "肝回声细密、远场衰减",
+      "肝囊肿": "良性病变，无需处理",
+      "胆囊结石": "需评估大小、数量",
+      "肾结石": "需评估大小、位置"
+    },
+    "preparation": [
+      "空腹8-12小时",
+      "可少量饮水",
+      "避免产气食物"
+    ]
+  },
+  {
+    "id": "checkup_028",
+    "category": "health_checkup",
+    "test_name": "骨密度(BMD)",
+    "description": "评估骨矿物质密度",
+    "result_interpretation": {
+      "正常": "T值≥-1.0",
+      "骨量减少": "T值 -1.0~-2.5",
+      "骨质疏松": "T值≤-2.5"
+    },
+    "clinical_significance": [
+      "诊断骨质疏松的金标准",
+      "预测骨折风险",
+      "监测治疗效果"
+    ],
+    "who_should_test": [
+      "65岁以上女性",
+      "70岁以上男性",
+      "有脆性骨折史",
+      "有危险因素（绝经、使用激素等）"
+    ]
+  },
+  {
+    "id": "checkup_029",
+    "category": "health_checkup",
+    "test_name": "幽门螺杆菌检测",
+    "description": "检测胃内幽门螺杆菌感染",
+    "methods": [
+      "C13/C14呼气试验",
+      "快速尿素酶试验",
+      "血清抗体检测",
+      "粪便抗原检测"
+    ],
+    "clinical_significance": [
+      "Hp感染是胃炎、溃疡的主要原因",
+      "与胃癌、MALT淋巴瘤相关",
+      "根除Hp可促进溃疡愈合"
+    ],
+    "treatment_indications": [
+      "消化性溃疡",
+      "胃MALT淋巴瘤",
+      "萎缩性胃炎",
+      "胃癌家族史",
+      "患者意愿"
+    ]
+  },
+  {
+    "id": "checkup_030",
+    "category": "health_checkup",
+    "test_name": "视力检查",
+    "description": "评估视力和眼部健康",
+    "normal_vision": "1.0(5.0)或以上",
+    "vision_categories": {
+      "轻度视力下降": "0.6-0.8",
+      "中度视力下降": "0.3-0.5",
+      "重度视力下降": "<0.3"
+    },
+    "common_problems": [
+      "近视：看近清晰，看远模糊",
+      "远视：看远清晰，看近模糊",
+      "散光：视物变形重影",
+      "老花：40岁后逐渐出现近距离阅读困难"
+    ],
+    "eye_care_recommendations": [
+      "20-20-20法则：每20分钟远眺20英尺外20秒",
+      "保持正确阅读距离",
+      "充足户外活动时间",
+      "定期眼科检查（特别是青光眼、糖网等高危人群）"
+    ]
+  }
+]

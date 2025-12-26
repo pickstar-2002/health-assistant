@@ -1,0 +1,1036 @@
+[
+  {
+    "id": "symptom_001",
+    "category": "symptom",
+    "symptom": "头痛",
+    "description": "头部疼痛的常见症状，包括紧张性头痛、偏头痛等多种类型",
+    "possible_causes": ["紧张性头痛", "偏头痛", "颈椎病", "高血压", "用眼过度"],
+    "common_symptoms": ["头部胀痛", "跳痛", "隐痛", "钝痛"],
+    "recommendations": [
+      "注意休息，保证充足睡眠",
+      "避免长时间用眼，每小时休息10分钟",
+      "适当进行颈部放松运动",
+      "按摩太阳穴可缓解轻度头痛",
+      "保持规律作息，避免熬夜"
+    ],
+    "when_to_see_doctor": [
+      "头痛剧烈且突然发生",
+      "伴有发热、颈部僵硬",
+      "伴有视力模糊或恶心呕吐",
+      "头部外伤后出现头痛",
+      "头痛持续超过3天未缓解"
+    ]
+  },
+  {
+    "id": "symptom_002",
+    "category": "symptom",
+    "symptom": "失眠",
+    "description": "难以入睡、睡眠浅、早醒或睡眠质量差",
+    "possible_causes": ["压力过大", "焦虑抑郁", "作息不规律", "环境因素", "咖啡因摄入"],
+    "common_symptoms": ["入睡困难", "易醒", "早醒", "白天精神不振"],
+    "recommendations": [
+      "建立规律的作息时间，固定上床和起床时间",
+      "睡前避免使用电子设备",
+      "保持卧室安静、黑暗、凉爽",
+      "睡前避免咖啡、茶等刺激性饮料",
+      "尝试深呼吸、冥想等放松训练"
+    ],
+    "when_to_see_doctor": [
+      "失眠持续超过两周",
+      "严重影响日常生活和工作",
+      "伴有其他身体或心理症状"
+    ]
+  },
+  {
+    "id": "symptom_003",
+    "category": "symptom",
+    "symptom": "疲劳",
+    "description": "持续感到疲乏无力，精力不足",
+    "possible_causes": ["过度劳累", "睡眠不足", "营养不良", "贫血", "甲状腺问题"],
+    "common_symptoms": ["全身乏力", "精神不振", "注意力不集中", "肌肉酸痛"],
+    "recommendations": [
+      "保证每天7-8小时睡眠",
+      "均衡饮食，补充蛋白质和维生素",
+      "适度运动增强体质",
+      "合理安排工作和休息，避免过度劳累",
+      "多喝水，保持水分充足"
+    ],
+    "when_to_see_doctor": [
+      "疲劳持续超过一个月",
+      "伴有体重下降或发热",
+      "影响正常工作生活",
+      "休息后无明显改善"
+    ]
+  },
+  {
+    "id": "symptom_004",
+    "category": "symptom",
+    "symptom": "咳嗽",
+    "description": "呼吸道常见症状，干咳或伴有痰液",
+    "possible_causes": ["感冒", "咽炎", "支气管炎", "过敏", "空气干燥"],
+    "common_symptoms": ["干咳", "咳痰", "喉咙痒", "胸痛"],
+    "recommendations": [
+      "多喝温水，保持喉咙湿润",
+      "避免辛辣刺激食物",
+      "保持室内空气湿润",
+      "可用蜂蜜水缓解咳嗽",
+      "注意保暖，避免受凉"
+    ],
+    "when_to_see_doctor": [
+      "咳嗽持续超过2周",
+      "伴有高热不退",
+      "咳血或痰中带血",
+      "呼吸困难或胸痛严重"
+    ]
+  },
+  {
+    "id": "symptom_005",
+    "category": "symptom",
+    "symptom": "发热",
+    "description": "体温超过正常范围（37.3℃以上）",
+    "possible_causes": ["感染", "炎症", "中暑", "免疫反应"],
+    "common_symptoms": ["体温升高", "畏寒", "出汗", "乏力"],
+    "recommendations": [
+      "低热（38.5℃以下）多喝水，注意休息",
+      "温水擦拭身体物理降温",
+      "穿着宽松透气的衣物",
+      "监测体温变化",
+      "饮食清淡易消化"
+    ],
+    "when_to_see_doctor": [
+      "体温超过39℃",
+      "发热持续超过3天",
+      "伴有抽搐、意识模糊",
+      "婴幼儿3个月以下发热"
+    ]
+  },
+  {
+    "id": "symptom_006",
+    "category": "symptom",
+    "symptom": "胃痛",
+    "description": "上腹部疼痛或不适感",
+    "possible_causes": ["胃炎", "胃溃疡", "消化不良", "饮食不当", "胃痉挛"],
+    "common_symptoms": ["上腹痛", "胀气", "反酸", "恶心"],
+    "recommendations": [
+      "少食多餐，避免暴饮暴食",
+      "避免辛辣、油腻、生冷食物",
+      "细嚼慢咽，充分咀嚼",
+      "饭后适当散步，不要立即躺卧",
+      "可喝温牛奶或姜水缓解"
+    ],
+    "when_to_see_doctor": [
+      "疼痛剧烈且持续",
+      "呕血或黑便",
+      "体重明显下降",
+      "伴有吞咽困难"
+    ]
+  },
+  {
+    "id": "symptom_007",
+    "category": "symptom",
+    "symptom": "腹泻",
+    "description": "排便次数增多，大便稀薄或水样",
+    "possible_causes": ["食物中毒", "肠胃炎", "消化不良", "食物不耐受"],
+    "common_symptoms": ["大便次数增多", "大便稀薄", "腹痛", "恶心"],
+    "recommendations": [
+      "多喝水或口服补液盐防止脱水",
+      "饮食清淡，吃小米粥、面条等易消化食物",
+      "避免乳制品、油腻食物",
+      "注意腹部保暖",
+      "补充益生菌调节肠道"
+    ],
+    "when_to_see_doctor": [
+      "腹泻持续超过3天",
+      "大便带血或呈黑色",
+      "严重脱水症状（口干、少尿）",
+      "伴有高热不退"
+    ]
+  },
+  {
+    "id": "symptom_008",
+    "category": "symptom",
+    "symptom": "便秘",
+    "description": "排便困难、次数减少或大便干结",
+    "possible_causes": ["饮食纤维不足", "缺乏运动", "压力大", "水分摄入少"],
+    "common_symptoms": ["排便困难", "大便干结", "排便次数减少", "腹胀"],
+    "recommendations": [
+      "增加膳食纤维摄入，多吃蔬菜水果",
+      "每天喝足够的水（1.5-2升）",
+      "养成定时排便习惯",
+      "适度运动，促进肠道蠕动",
+      "可顺时针按摩腹部"
+    ],
+    "when_to_see_doctor": [
+      "便秘持续超过2周",
+      "大便带血",
+      "突发便秘伴腹痛",
+      "体重明显下降"
+    ]
+  },
+  {
+    "id": "symptom_009",
+    "category": "symptom",
+    "symptom": "头晕",
+    "description": "头重脚轻、眩晕或站立不稳的感觉",
+    "possible_causes": ["低血压", "贫血", "颈椎病", "内耳问题", "低血糖"],
+    "common_symptoms": ["头昏眼花", "站立不稳", "天旋地转", "恶心"],
+    "recommendations": [
+      "起身时动作缓慢，避免突然站起",
+      "保证充足水分和营养摄入",
+      "避免长时间低头或固定姿势",
+      "保证充足睡眠",
+      "头晕时立即坐下或蹲下"
+    ],
+    "when_to_see_doctor": [
+      "头晕频繁发作",
+      "伴有头痛、视力模糊",
+      "晕厥或意识丧失",
+      "伴有肢体麻木或言语障碍"
+    ]
+  },
+  {
+    "id": "symptom_010",
+    "category": "symptom",
+    "symptom": "咽痛",
+    "description": "咽喉部疼痛或不适感",
+    "possible_causes": ["感冒", "咽炎", "扁桃体炎", "空气干燥", "用嗓过度"],
+    "common_symptoms": ["喉咙痛", "吞咽困难", "声音嘶哑", "干痒"],
+    "recommendations": [
+      "多喝温水，保持喉咙湿润",
+      "可用淡盐水漱口",
+      "避免辛辣刺激食物",
+      "少说话，让嗓子休息",
+      "保持室内空气湿润"
+    ],
+    "when_to_see_doctor": [
+      "咽痛持续超过1周",
+      "伴有高热",
+      "呼吸困难",
+      "吞咽严重困难"
+    ]
+  },
+  {
+    "id": "symptom_011",
+    "category": "symptom",
+    "symptom": "鼻塞",
+    "description": "鼻腔通气不畅，呼吸受阻",
+    "possible_causes": ["感冒", "鼻炎", "过敏", "鼻中隔偏曲"],
+    "common_symptoms": ["鼻腔堵塞", "流涕", "嗅觉减退", "头痛"],
+    "recommendations": [
+      "用热毛巾敷鼻部",
+      "生理盐水冲洗鼻腔",
+      "保持室内空气湿润",
+      "多喝温水",
+      "睡觉时垫高头部"
+    ],
+    "when_to_see_doctor": [
+      "鼻塞持续超过2周",
+      "伴有面部疼痛",
+      "鼻涕带血或异味",
+      "单侧持续性鼻塞"
+    ]
+  },
+  {
+    "id": "symptom_012",
+    "category": "symptom",
+    "symptom": "心慌",
+    "description": "心跳加快、心悸或心跳不规律的感觉",
+    "possible_causes": ["紧张焦虑", "过度劳累", "咖啡因", "心律不齐", "贫血"],
+    "common_symptoms": ["心跳加速", "心前区不适", "胸闷", "气短"],
+    "recommendations": [
+      "保持冷静，深呼吸放松",
+      "避免咖啡、茶等刺激性饮料",
+      "保证充足睡眠",
+      "适度运动，避免剧烈运动",
+      "学会缓解压力"
+    ],
+    "when_to_see_doctor": [
+      "心慌频繁发作",
+      "伴有胸痛、呼吸困难",
+      "晕厥或近乎晕厥",
+      "有心律不齐病史"
+    ]
+  },
+  {
+    "id": "symptom_013",
+    "category": "symptom",
+    "symptom": "胸闷",
+    "description": "胸部压迫感或憋气感",
+    "possible_causes": ["心脏问题", "肺部疾病", "焦虑紧张", "消化不良"],
+    "common_symptoms": ["胸部压迫感", "呼吸不畅", "憋气", "心慌"],
+    "recommendations": [
+      "保持情绪稳定，避免紧张",
+      "开窗通风，保持空气流通",
+      "松开紧身衣物",
+      "深呼吸练习",
+      "避免剧烈活动"
+    ],
+    "when_to_see_doctor": [
+      "胸闷持续不缓解",
+      "伴有胸痛、放射痛",
+      "呼吸困难加重",
+      "冷汗、恶心呕吐"
+    ]
+  },
+  {
+    "id": "symptom_014",
+    "category": "symptom",
+    "symptom": "腰痛",
+    "description": "腰部疼痛或不适",
+    "possible_causes": ["腰肌劳损", "腰椎间盘突出", "久坐", "姿势不当"],
+    "common_symptoms": ["腰部疼痛", "僵硬", "活动受限", "放射痛"],
+    "recommendations": [
+      "避免久坐，定时起身活动",
+      "保持正确坐姿",
+      "适度腰部锻炼",
+      "可热敷缓解",
+      "睡觉选择硬板床"
+    ],
+    "when_to_see_doctor": [
+      "腰痛持续超过2周",
+      "伴有下肢麻木无力",
+      "大小便异常",
+      "外伤后腰痛"
+    ]
+  },
+  {
+    "id": "symptom_015",
+    "category": "symptom",
+    "symptom": "关节痛",
+    "description": "关节部位疼痛或肿胀",
+    "possible_causes": ["关节炎", "运动损伤", "受凉", "过度使用"],
+    "common_symptoms": ["关节疼痛", "肿胀", "活动受限", "僵硬"],
+    "recommendations": [
+      "休息，避免过度使用",
+      "可冷敷或热敷缓解",
+      "适当关节活动",
+      "避免受凉",
+      "控制体重减轻关节负担"
+    ],
+    "when_to_see_doctor": [
+      "关节红肿热痛明显",
+      "活动严重受限",
+      "关节变形",
+      "外伤后关节痛"
+    ]
+  },
+  {
+    "id": "symptom_016",
+    "category": "symptom",
+    "symptom": "皮肤瘙痒",
+    "description": "皮肤发痒，可能伴有皮疹",
+    "possible_causes": ["皮肤干燥", "过敏", "湿疹", "蚊虫叮咬"],
+    "common_symptoms": ["皮肤瘙痒", "抓痕", "皮疹", "红肿"],
+    "recommendations": [
+      "避免搔抓，防止感染",
+      "保持皮肤湿润，使用润肤霜",
+      "穿着宽松棉质衣物",
+      "避免接触过敏原",
+      "可用温水清洗，避免过热水"
+    ],
+    "when_to_see_doctor": [
+      "瘙痒持续不缓解",
+      "全身性瘙痒",
+      "伴有严重皮疹",
+      "影响睡眠和生活"
+    ]
+  },
+  {
+    "id": "symptom_017",
+    "category": "symptom",
+    "symptom": "脱发",
+    "description": "头发异常脱落，头发稀疏",
+    "possible_causes": ["压力大", "营养不良", "激素变化", "遗传"],
+    "common_symptoms": ["头发变稀", "发际线后移", "头顶稀疏"],
+    "recommendations": [
+      "保持规律作息，减少压力",
+      "均衡饮食，补充蛋白质和维生素",
+      "避免频繁染发烫发",
+      "正确洗发护发",
+      "头皮按摩促进血液循环"
+    ],
+    "when_to_see_doctor": [
+      "突然大量脱发",
+      "头皮出现红肿、脱发斑",
+      "伴有其他不适症状"
+    ]
+  },
+  {
+    "id": "symptom_018",
+    "category": "symptom",
+    "symptom": "口干",
+    "description": "口腔干燥，唾液分泌减少",
+    "possible_causes": ["缺水", "压力", "药物副作用", "张口呼吸"],
+    "common_symptoms": ["口干舌燥", "吞咽困难", "口臭"],
+    "recommendations": [
+      "多喝水，保持水分充足",
+      "咀嚼无糖口香糖刺激唾液分泌",
+      "避免咖啡、酒精",
+      "使用加湿器",
+      "避免张口呼吸"
+    ],
+    "when_to_see_doctor": [
+      "口干持续严重",
+      "伴有眼干、关节痛",
+      "唾液腺肿大"
+    ]
+  },
+  {
+    "id": "symptom_019",
+    "category": "symptom",
+    "symptom": "耳鸣",
+    "description": "耳朵内有嗡嗡声或其他异常声音",
+    "possible_causes": ["噪音", "耳部疾病", "压力", "血管问题"],
+    "common_symptoms": ["耳内噪音", "听力下降", "头晕"],
+    "recommendations": [
+      "避免长期处于噪音环境",
+      "保证充足休息",
+      "避免使用耳机音量过大",
+      "控制血压",
+      "减少咖啡因摄入"
+    ],
+    "when_to_see_doctor": [
+      "耳鸣持续不缓解",
+      "伴有听力明显下降",
+      "单侧耳鸣",
+      "伴有头晕或面部麻木"
+    ]
+  },
+  {
+    "id": "symptom_020",
+    "category": "symptom",
+    "symptom": "记忆力下降",
+    "description": "记性变差，容易遗忘",
+    "possible_causes": ["压力", "睡眠不足", "年龄", "注意力不集中"],
+    "common_symptoms": ["健忘", "记不住事", "注意力不集中"],
+    "recommendations": [
+      "保证充足睡眠",
+      "适当脑力训练（读书、下棋）",
+      "规律运动",
+      "减少多任务处理",
+      "用笔记或手机提醒辅助记忆"
+    ],
+    "when_to_see_doctor": [
+      "记忆力明显下降影响生活",
+      "伴有性格改变",
+      "定向障碍",
+      "老年人突然记忆力恶化"
+    ]
+  },
+  {
+    "id": "symptom_021",
+    "category": "symptom",
+    "symptom": "食欲不振",
+    "description": "不想吃东西，食欲减退",
+    "possible_causes": ["消化不良", "情绪问题", "疾病", "天气炎热"],
+    "common_symptoms": ["不想吃饭", "饭量减少", "腹胀"],
+    "recommendations": [
+      "少量多餐",
+      "选择清淡易消化食物",
+      "适当运动促进消化",
+      "营造愉快用餐环境",
+      "尝试开胃食物如山楂"
+    ],
+    "when_to_see_doctor": [
+      "食欲不振持续超过2周",
+      "体重明显下降",
+      "伴有吞咽困难",
+      "呕吐或呕血"
+    ]
+  },
+  {
+    "id": "symptom_022",
+    "category": "symptom",
+    "symptom": "恶心",
+    "description": "想吐的感觉，胃部不适",
+    "possible_causes": ["消化不良", "食物中毒", "怀孕", "晕车"],
+    "common_symptoms": ["恶心想吐", "胃部不适", "反胃"],
+    "recommendations": [
+      "少量多餐，避免油腻",
+      "生姜可缓解恶心",
+      "保持通风良好",
+      "避免异味刺激",
+      "缓慢起身避免体位性眩晕"
+    ],
+    "when_to_see_doctor": [
+      "频繁呕吐超过24小时",
+      "呕吐物带血",
+      "剧烈腹痛",
+      "头部外伤后呕吐"
+    ]
+  },
+  {
+    "id": "symptom_023",
+    "category": "symptom",
+    "symptom": "腹胀",
+    "description": "腹部胀满感，感觉气体多",
+    "possible_causes": ["消化不良", "吞咽空气", "产气食物", "肠胃功能弱"],
+    "common_symptoms": ["腹部胀满", "打嗝", "放屁多"],
+    "recommendations": [
+      "细嚼慢咽，避免吞咽空气",
+      "少吃产气食物（豆类、碳酸饮料）",
+      "饭后适度散步",
+      "顺时针按摩腹部",
+      "可吃益生菌调理"
+    ],
+    "when_to_see_doctor": [
+      "腹胀持续严重",
+      "伴有腹痛呕吐",
+      "排便排气停止",
+      "体重下降"
+    ]
+  },
+  {
+    "id": "symptom_024",
+    "category": "symptom",
+    "symptom": "尿频",
+    "description": "排尿次数明显增多",
+    "possible_causes": ["饮水过多", "尿路感染", "前列腺问题", "糖尿病"],
+    "common_symptoms": ["频繁小便", "尿急", "夜尿增多"],
+    "recommendations": [
+      "适量饮水，避免过量",
+      "注意个人卫生",
+      "避免刺激性食物",
+      "睡前少饮水",
+      "做盆底肌锻炼"
+    ],
+    "when_to_see_doctor": [
+      "尿频伴有尿痛尿急",
+      "尿中带血",
+      "夜间频繁起夜影响睡眠",
+      "伴有发热腰痛"
+    ]
+  },
+  {
+    "id": "symptom_025",
+    "category": "symptom",
+    "symptom": "手脚冰凉",
+    "description": "手脚温度低，感觉寒冷",
+    "possible_causes": ["循环差", "贫血", "甲状腺功能低", "体质虚弱"],
+    "common_symptoms": ["手脚凉", "怕冷", "面色苍白"],
+    "recommendations": [
+      "注意保暖，穿厚袜手套",
+      "适度运动促进血液循环",
+      "温水泡手脚",
+      "补充温热食物",
+      "按摩手脚改善循环"
+    ],
+    "when_to_see_doctor": [
+      "手指脚趾变色发紫",
+      "伴有其他异常症状",
+      "突然加重"
+    ]
+  },
+  {
+    "id": "symptom_026",
+    "category": "symptom",
+    "symptom": "眼疲劳",
+    "description": "眼睛酸痛、干涩、视力模糊",
+    "possible_causes": ["长时间用眼", "屏幕时间过长", "光线不当"],
+    "common_symptoms": ["眼睛干涩", "酸痛", "视力模糊", "流泪"],
+    "recommendations": [
+      "遵循20-20-20法则（每20分钟看20英尺外20秒）",
+      "保持适当用眼距离",
+      "眨眼练习保持眼睛湿润",
+      "调整屏幕亮度和位置",
+      "做眼保健操"
+    ],
+    "when_to_see_doctor": [
+      "视力持续下降",
+      "眼睛红痛严重",
+      "出现重影闪光",
+      "伴有头痛恶心"
+    ]
+  },
+  {
+    "id": "symptom_027",
+    "category": "symptom",
+    "symptom": "打嗝",
+    "description": "膈肌痉挛导致的不自主呃逆",
+    "possible_causes": ["吃太快", "吸入空气", "温度变化", "刺激食物"],
+    "common_symptoms": ["呃逆", "胸腔震动"],
+    "recommendations": [
+      "屏气法：深吸气后屏气",
+      "喝温水",
+      "惊吓法（有人陪伴时）",
+      "按压内关穴",
+      "慢慢吞咽"
+    ],
+    "when_to_see_doctor": [
+      "打嗝持续超过48小时",
+      "伴有吞咽困难",
+      "伴有胸痛呕吐"
+    ]
+  },
+  {
+    "id": "symptom_028",
+    "category": "symptom",
+    "symptom": "膝盖痛",
+    "description": "膝关节疼痛或不适",
+    "possible_causes": ["过度使用", "运动损伤", "关节炎", "体重过大"],
+    "common_symptoms": ["膝盖疼痛", "肿胀", "活动时痛", "上下楼梯痛"],
+    "recommendations": [
+      "休息减少活动",
+      "避免深蹲爬山",
+      "控制体重减轻负担",
+      "加强腿部肌肉锻炼",
+      "佩戴护膝保护"
+    ],
+    "when_to_see_doctor": [
+      "膝关节肿胀明显",
+      "活动严重受限",
+      "关节交锁卡住",
+      "外伤后疼痛"
+    ]
+  },
+  {
+    "id": "symptom_029",
+    "category": "symptom",
+    "symptom": "肩膀痛",
+    "description": "肩关节部位疼痛",
+    "possible_causes": ["肩周炎", "肌肉劳损", "姿势不良", "受凉"],
+    "common_symptoms": ["肩部疼痛", "活动受限", "僵硬", "夜间痛"],
+    "recommendations": [
+      "避免肩部受凉",
+      "适当肩部活动拉伸",
+      "热敷缓解疼痛",
+      "纠正不良姿势",
+      "睡觉避免侧卧患侧"
+    ],
+    "when_to_see_doctor": [
+      "肩痛持续不缓解",
+      "活动严重受限",
+      "外伤后肩痛",
+      "上肢无力"
+    ]
+  },
+  {
+    "id": "symptom_030",
+    "category": "symptom",
+    "symptom": "眼干",
+    "description": "眼睛干涩不适",
+    "possible_causes": ["长时间用眼", "环境干燥", "泪液分泌不足"],
+    "common_symptoms": ["眼睛干涩", "异物感", "烧灼感", "视力波动"],
+    "recommendations": [
+      "多眨眼保持湿润",
+      "使用人工泪液",
+      "增加室内湿度",
+      "避免长时间盯着屏幕",
+      "热敷眼部"
+    ],
+    "when_to_see_doctor": [
+      "眼干严重影响生活",
+      "伴有眼红痛",
+      "视力明显下降"
+    ]
+  },
+  {
+    "id": "symptom_031",
+    "category": "symptom",
+    "symptom": "打呼噜",
+    "description": "睡眠时呼吸发出鼾声",
+    "possible_causes": ["肥胖", "鼻咽部问题", "睡姿", "疲劳"],
+    "common_symptoms": ["睡眠打鼾", "呼吸暂停", "白天嗜睡"],
+    "recommendations": [
+      "侧卧睡眠",
+      "控制体重",
+      "避免睡前饮酒",
+      "保持鼻腔通畅",
+      "适当抬高枕头"
+    ],
+    "when_to_see_doctor": [
+      "打鼾伴有呼吸暂停",
+      "白天严重嗜睡",
+      "晨起头痛口干",
+      "被观察呼吸暂停频繁"
+    ]
+  },
+  {
+    "id": "symptom_032",
+    "category": "symptom",
+    "symptom": "月经不调",
+    "description": "月经周期异常或经量异常",
+    "possible_causes": ["内分泌紊乱", "压力大", "营养不良", "妇科问题"],
+    "common_symptoms": ["周期不规律", "经量异常", "痛经", "经期延长"],
+    "recommendations": [
+      "保持规律作息",
+      "注意保暖避免受凉",
+      "经期避免剧烈运动",
+      "均衡饮食",
+      "缓解压力放松心情"
+    ],
+    "when_to_see_doctor": [
+      "月经长期不规律",
+      "经量过多导致贫血",
+      "严重痛经",
+      "青春期或围绝经期异常"
+    ]
+  },
+  {
+    "id": "symptom_033",
+    "category": "symptom",
+    "symptom": "痛经",
+    "description": "月经期间下腹疼痛",
+    "possible_causes": ["前列腺素分泌", "子宫位置", "内分泌因素"],
+    "common_symptoms": ["下腹痛", "腰酸", "乏力", "头痛"],
+    "recommendations": [
+      "经期注意腹部保暖",
+      "热水袋热敷下腹",
+      "适当休息避免劳累",
+      "喝姜红糖水",
+      "经期后规律运动"
+    ],
+    "when_to_see_doctor": [
+      "痛经严重影响生活",
+      "年龄增长后突然痛经",
+      "伴有月经异常",
+      "止痛药无效"
+    ]
+  },
+  {
+    "id": "symptom_034",
+    "category": "symptom",
+    "symptom": "指甲异常",
+    "description": "指甲颜色、形状或质地异常",
+    "possible_causes": ["营养不良", "真菌感染", "外伤", "疾病"],
+    "common_symptoms": ["指甲变脆", "变厚", "变色", "变形"],
+    "recommendations": [
+      "保持指甲清洁干燥",
+      "补充维生素和矿物质",
+      "避免长时间接触水",
+      "使用护手霜",
+      "不要过度修剪"
+    ],
+    "when_to_see_doctor": [
+      "指甲突然明显变化",
+      "伴有甲周红肿疼痛",
+      "多个指甲同时异常",
+      "怀疑真菌感染"
+    ]
+  },
+  {
+    "id": "symptom_035",
+    "category": "symptom",
+    "symptom": "脚臭",
+    "description": "脚部散发异味",
+    "possible_causes": ["多汗", "真菌感染", "鞋袜不透气", "卫生习惯"],
+    "common_symptoms": ["脚部异味", "多汗", "瘙痒"],
+    "recommendations": [
+      "每天洗脚换袜",
+      "穿透气鞋袜",
+      "使用止汗剂",
+      "鞋轮换穿晾晒",
+      "可泡脚用抗菌皂"
+    ],
+    "when_to_see_doctor": [
+      "伴有严重瘙痒脱皮",
+      "自己处理无效",
+      "足部异常破损"
+    ]
+  },
+  {
+    "id": "symptom_036",
+    "category": "symptom",
+    "symptom": "口腔溃疡",
+    "description": "口腔黏膜出现溃烂疼痛",
+    "possible_causes": ["免疫力下降", "维生素缺乏", "压力", "创伤"],
+    "common_symptoms": ["口腔溃烂", "疼痛", "影响进食"],
+    "recommendations": [
+      "补充维生素B族和维生素C",
+      "避免辛辣刺激性食物",
+      "用淡盐水漱口",
+      "保证充足睡眠",
+      "可用溃疡贴缓解疼痛"
+    ],
+    "when_to_see_doctor": [
+      "溃疡超过2周不愈合",
+      "频繁复发",
+      "溃疡异常大",
+      "伴有其他症状"
+    ]
+  },
+  {
+    "id": "symptom_037",
+    "category": "symptom",
+    "symptom": "口臭",
+    "description": "口腔发出不良气味",
+    "possible_causes": ["口腔卫生差", "牙周病", "消化问题", "食物残渣"],
+    "common_symptoms": ["口气异味", "口苦"],
+    "recommendations": [
+      "认真刷牙用牙线",
+      "清洁舌苔",
+      "多喝水保持口腔湿润",
+      "定期洗牙",
+      "避免大蒜洋葱等异味食物"
+    ],
+    "when_to_see_doctor": [
+      "口腔卫生良好仍有口臭",
+      "伴有牙龈出血",
+      "伴有胃部症状",
+      "儿童口臭"
+    ]
+  },
+  {
+    "id": "symptom_038",
+    "category": "symptom",
+    "symptom": "黑眼圈",
+    "description": "眼周皮肤暗沉",
+    "possible_causes": ["睡眠不足", "遗传", "过敏", "血液循环差"],
+    "common_symptoms": ["眼周暗沉", "眼袋"],
+    "recommendations": [
+      "保证充足睡眠",
+      "避免熬夜",
+      "眼部按摩促进循环",
+      "冷敷缓解",
+      "使用眼霜"
+    ],
+    "when_to_see_doctor": [
+      "突然出现的黑眼圈",
+      "伴有其他不适"
+    ]
+  },
+  {
+    "id": "symptom_039",
+    "category": "symptom",
+    "symptom": "焦虑",
+    "description": "过度担忧、紧张不安的情绪状态",
+    "possible_causes": ["压力", "性格因素", "环境变化", "身体健康问题"],
+    "common_symptoms": ["紧张不安", "担忧过度", "心跳加快", "失眠"],
+    "recommendations": [
+      "规律运动释放压力",
+      "学习放松技巧（深呼吸、冥想）",
+      "与亲友倾诉",
+      "规律作息保证睡眠",
+      "减少咖啡因摄入"
+    ],
+    "when_to_see_doctor": [
+      "焦虑严重影响生活",
+      "出现惊恐发作",
+      "伴有抑郁症状",
+      "无法自我缓解"
+    ]
+  },
+  {
+    "id": "symptom_040",
+    "category": "symptom",
+    "symptom": "情绪低落",
+    "description": "心情不好、兴趣减退",
+    "possible_causes": ["压力", "生活事件", "生理因素", "环境变化"],
+    "common_symptoms": ["心情低落", "兴趣减退", "精力不足", "自我评价低"],
+    "recommendations": [
+      "规律运动改善情绪",
+      "保持社交联系",
+      "做喜欢的事情转移注意",
+      "规律作息",
+      "记录积极的事情"
+    ],
+    "when_to_see_doctor": [
+      "情绪低落持续超过2周",
+      "有自伤想法",
+      "严重影响工作生活",
+      "伴有躯体症状"
+    ]
+  },
+  {
+    "id": "symptom_041",
+    "category": "symptom",
+    "symptom": "多汗",
+    "description": "出汗量超过正常",
+    "possible_causes": ["天热", "运动", "紧张", "甲状腺问题", "更年期"],
+    "common_symptoms": ["出汗多", "手心脚心出汗", "夜间出汗"],
+    "recommendations": [
+      "保持清爽透气穿着",
+      "注意个人卫生",
+      "使用止汗剂",
+      "避免辛辣食物",
+      "管理情绪减轻紧张"
+    ],
+    "when_to_see_doctor": [
+      "不明原因多汗",
+      "夜间盗汗",
+      "单侧多汗",
+      "伴有体重下降心慌"
+    ]
+  },
+  {
+    "id": "symptom_042",
+    "category": "symptom",
+    "symptom": "腿抽筋",
+    "description": "腿部肌肉突然疼痛收缩",
+    "possible_causes": ["缺钙", "疲劳", "受凉", "姿势不当"],
+    "common_symptoms": ["小腿疼痛", "肌肉硬结", "突然发作"],
+    "recommendations": [
+      "拉伸缓解抽筋",
+      "热敷放松肌肉",
+      "补充钙质和维生素D",
+      "睡前拉伸",
+      "注意保暖"
+    ],
+    "when_to_see_doctor": [
+      "抽筋频繁发作",
+      "伴有肌肉无力",
+      "服用利尿剂后抽筋"
+    ]
+  },
+  {
+    "id": "symptom_043",
+    "category": "symptom",
+    "symptom": "手抖",
+    "description": "手部不自主颤抖",
+    "possible_causes": ["紧张", "疲劳", "咖啡因", "甲状腺问题", "神经系统问题"],
+    "common_symptoms": ["手部颤抖", "持物困难"],
+    "recommendations": [
+      "避免咖啡因",
+      "保证充足休息",
+      "减少压力",
+      "避免酒精",
+      "手部锻炼"
+    ],
+    "when_to_see_doctor": [
+      "持续性手抖",
+      "伴有其他神经系统症状",
+      "影响日常生活",
+      "单侧手抖"
+    ]
+  },
+  {
+    "id": "symptom_044",
+    "category": "symptom",
+    "symptom": "牙齿敏感",
+    "description": "牙齿遇冷热酸甜刺激时疼痛",
+    "possible_causes": ["牙釉质磨损", "牙龈萎缩", "蛀牙", "牙裂"],
+    "common_symptoms": ["牙齿酸痛", "对温度敏感", "对甜食敏感"],
+    "recommendations": [
+      "使用抗敏感牙膏",
+      "正确刷牙避免用力过猛",
+      "避免过冷过热食物",
+      "使用软毛牙刷",
+      "定期检查牙齿"
+    ],
+    "when_to_see_doctor": [
+      "敏感持续不缓解",
+      "自发疼痛",
+      "疼痛剧烈"
+    ]
+  },
+  {
+    "id": "symptom_045",
+    "category": "symptom",
+    "symptom": "牙龈出血",
+    "description": "刷牙或咬硬物时牙龈出血",
+    "possible_causes": ["牙龈炎", "牙周病", "刷牙不当", "维生素缺乏"],
+    "common_symptoms": ["牙龈出血", "红肿", "口臭"],
+    "recommendations": [
+      "正确刷牙用牙线",
+      "使用软毛牙刷",
+      "定期洗牙",
+      "补充维生素C",
+      "避免过硬食物"
+    ],
+    "when_to_see_doctor": [
+      "出血频繁量大",
+      "伴有牙龈肿痛",
+      "牙齿松动",
+      "自己护理无效"
+    ]
+  },
+  {
+    "id": "symptom_046",
+    "category": "symptom",
+    "symptom": "雀斑",
+    "description": "面部褐色斑点",
+    "possible_causes": ["遗传", "日晒", "激素变化"],
+    "common_symptoms": ["面部褐色斑点", "日晒后加深"],
+    "recommendations": [
+      "注意防晒，使用防晒霜",
+      "避免紫外线强烈时段外出",
+      "使用美白淡斑护肤品",
+      "多吃维生素C食物",
+      "激光治疗可咨询医生"
+    ],
+    "when_to_see_doctor": [
+      "斑点突然增多或变化",
+      "斑点形状不规则",
+      "伴有疼痛瘙痒",
+      "怀疑恶变"
+    ]
+  },
+  {
+    "id": "symptom_047",
+    "category": "symptom",
+    "symptom": "粉刺",
+    "description": "面部毛囊堵塞形成的丘疹",
+    "possible_causes": ["油脂分泌", "激素", "细菌", "饮食"],
+    "common_symptoms": ["白头黑头", "红肿丘疹", "油性皮肤"],
+    "recommendations": [
+      "清洁面部但不要过度",
+      "使用水杨酸或过氧化苯甲酰",
+      "避免挤压",
+      "少吃高糖高油食物",
+      "勤换枕套"
+    ],
+    "when_to_see_doctor": [
+      "痤疮严重囊肿型",
+      "留有疤痕",
+      "自己处理无效",
+      "严重影响自信"
+    ]
+  },
+  {
+    "id": "symptom_048",
+    "category": "symptom",
+    "symptom": "白发",
+    "description": "头发变白",
+    "possible_causes": ["遗传", "年龄", "压力", "营养不良"],
+    "common_symptoms": ["头发变白", "从头顶或鬓角开始"],
+    "recommendations": [
+      "补充维生素B族",
+      "缓解压力",
+      "规律作息",
+      "头皮按摩",
+      "接受自然变化"
+    ],
+    "when_to_see_doctor": [
+      "青少年突然大量白发",
+      "伴有其他症状"
+    ]
+  },
+  {
+    "id": "symptom_049",
+    "category": "symptom",
+    "symptom": "体毛增多",
+    "description": "身体毛发生长过多",
+    "possible_causes": ["遗传", "激素", "药物", "多囊卵巢"],
+    "common_symptoms": ["体毛浓密", "月经不调（女性）"],
+    "recommendations": [
+      "美容方法去除（激光、脱毛膏）",
+      "女性如有月经异常应就医",
+      "避免含激素药物"
+    ],
+    "when_to_see_doctor": [
+      "女性突然体毛增多",
+      "伴有月经异常",
+      "男性化特征（女性）"
+    ]
+  },
+  {
+    "id": "symptom_050",
+    "category": "symptom",
+    "symptom": "近视加深",
+    "description": "视力下降，近视度数增加",
+    "possible_causes": ["用眼过度", "遗传", "发育因素", "缺乏户外活动"],
+    "common_symptoms": ["远视力模糊", "眯眼", "眼疲劳"],
+    "recommendations": [
+      "增加户外活动时间",
+      "控制近距离用眼",
+      "保持正确读写姿势",
+      "定期检查视力",
+      "佩戴合适眼镜"
+    ],
+    "when_to_see_doctor": [
+      "视力快速下降",
+      "眼前有黑影闪光",
+      "眼睛疼痛"
+    ]
+  }
+]

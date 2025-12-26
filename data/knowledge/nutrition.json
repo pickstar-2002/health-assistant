@@ -1,0 +1,402 @@
+[
+  {
+    "id": "nutrition_001",
+    "category": "nutrition",
+    "nutrient": "蛋白质",
+    "function": "构成人体组织、修复细胞、合成酶和激素、提供能量、维持免疫功能",
+    "daily_need": "成人0.8-1.2克/公斤体重，运动人群1.2-2.0克/公斤体重",
+    "rich_sources": ["鸡蛋", "鸡胸肉", "牛肉", "鱼肉", "虾", "豆腐", "豆浆", "牛奶", "酸奶"],
+    "deficiency_symptoms": ["肌肉流失", "免疫力下降", "水肿", "头发枯黄", "指甲易断"],
+    "tips": ["早餐必须摄入蛋白质", "运动后30分钟补充效果最佳", "动物蛋白和植物蛋白搭配食用更佳"]
+  },
+  {
+    "id": "nutrition_002",
+    "category": "nutrition",
+    "nutrient": "维生素C",
+    "function": "抗氧化、促进胶原蛋白合成、增强免疫力、促进铁吸收",
+    "daily_need": "成人100毫克/天",
+    "rich_sources": ["柑橘", "猕猴桃", "草莓", "青椒", "西兰花", "西红柿", "柠檬"],
+    "deficiency_symptoms": ["牙龈出血", "免疫力下降", "疲劳乏力", "伤口愈合慢"],
+    "tips": ["维C易溶于水，建议生吃或短时间烹饪", "高温长时间烹饪会破坏维C", "每日1-2个富含维C的水果即可满足需求"]
+  },
+  {
+    "id": "nutrition_003",
+    "category": "nutrition",
+    "nutrient": "钙",
+    "function": "构成骨骼和牙齿、维持神经肌肉功能、参与血液凝固",
+    "daily_need": "成人800-1000毫克/天",
+    "rich_sources": ["牛奶", "酸奶", "奶酪", "豆腐", "小鱼干", "芝麻", "绿叶蔬菜"],
+    "deficiency_symptoms": ["骨质疏松", "肌肉痉挛", "牙齿松动", "容易骨折"],
+    "tips": ["维生素D有助于钙吸收", "晚上补钙效果更好", "运动可增强钙的沉积"]
+  },
+  {
+    "id": "nutrition_004",
+    "category": "nutrition",
+    "nutrient": "铁",
+    "function": "合成血红蛋白、运输氧气、参与能量代谢",
+    "daily_need": "男性12毫克/天，女性20毫克/天",
+    "rich_sources": ["红肉", "动物肝脏", "动物血", "菠菜", "黑木耳", "芝麻"],
+    "deficiency_symptoms": ["贫血", "疲劳乏力", "面色苍白", "注意力不集中"],
+    "tips": ["维生素C可促进铁吸收", "动物铁比植物铁更易吸收", "茶和咖啡会影响铁吸收"]
+  },
+  {
+    "id": "nutrition_005",
+    "category": "nutrition",
+    "nutrient": "膳食纤维",
+    "function": "促进肠道蠕动、预防便秘、调节血糖、降低胆固醇",
+    "daily_need": "成人25-35克/天",
+    "rich_sources": ["全谷物", "燕麦", "糙米", "蔬菜", "水果", "豆类", "坚果"],
+    "deficiency_symptoms": ["便秘", "血糖波动", "胆固醇升高"],
+    "tips": ["逐渐增加纤维摄入避免胀气", "多喝水帮助纤维发挥作用", "精制谷物缺乏纤维"]
+  },
+  {
+    "id": "nutrition_006",
+    "category": "nutrition",
+    "nutrient": "Omega-3脂肪酸",
+    "function": "抗炎、保护心血管、促进大脑发育、维护视力",
+    "daily_need": "成人250-500毫克EPA+DHA/天",
+    "rich_sources": ["深海鱼类", "亚麻籽", "核桃", "奇亚籽", "藻油"],
+    "deficiency_symptoms": ["心血管风险增加", "记忆力下降", "皮肤干燥"],
+    "tips": ["每周吃2-3次深海鱼", "植物来源的ALA转化效率低", "高温烹饪会破坏Omega-3"]
+  },
+  {
+    "id": "nutrition_007",
+    "category": "nutrition",
+    "nutrient": "维生素D",
+    "function": "促进钙吸收、调节免疫功能、维持骨健康",
+    "daily_need": "成人400-800IU/天",
+    "rich_sources": ["阳光照射", " fatty fish", "蛋黄", "蘑菇"],
+    "deficiency_symptoms": ["骨质疏松", "肌肉无力", "免疫力下降", "情绪低落"],
+    "tips": ["每天晒15-20分钟太阳", "维生素D是脂溶性需随脂肪食用", "冬季和室内人群容易缺乏"]
+  },
+  {
+    "id": "nutrition_008",
+    "category": "nutrition",
+    "nutrient": "B族维生素",
+    "function": "参与能量代谢、维持神经系统功能、促进红细胞形成",
+    "daily_need": "B1 1.2mg B2 1.2mg B6 1.3mg B12 2.4μg",
+    "rich_sources": ["全谷物", "瘦肉", "鸡蛋", "牛奶", "绿叶蔬菜", "豆类"],
+    "deficiency_symptoms": ["疲劳", "神经系统问题", "贫血", "皮肤问题"],
+    "tips": ["精制加工会损失B族维生素", "压力大会消耗更多B族维生素", "素食者容易缺乏B12"]
+  },
+  {
+    "id": "nutrition_009",
+    "category": "nutrition",
+    "nutrient": "镁",
+    "function": "参与300+酶反应、维持肌肉神经功能、支持心血管健康",
+    "daily_need": "成人300-400毫克/天",
+    "rich_sources": ["坚果", "种子", "绿叶蔬菜", "全谷物", "豆类"],
+    "deficiency_symptoms": ["肌肉痉挛", "心律不齐", "疲劳", "头痛"],
+    "tips": ["压力和运动会增加镁需求", "钙镁需平衡摄入", "精制食物缺乏镁"]
+  },
+  {
+    "id": "nutrition_010",
+    "category": "nutrition",
+    "nutrient": "锌",
+    "function": "支持免疫系统、促进伤口愈合、维持味觉嗅觉、参与DNA合成",
+    "daily_need": "男性11毫克/天，女性8毫克/天",
+    "rich_sources": ["牡蛎", "红肉", "蟹", "南瓜子", "鹰嘴豆"],
+    "deficiency_symptoms": ["免疫力下降", "伤口愈合慢", "味觉丧失", "生长迟缓"],
+    "tips": ["植物锌吸收率较低", "铜锌需平衡", "锌过量会影响铜吸收"]
+  },
+  {
+    "id": "nutrition_011",
+    "category": "nutrition",
+    "nutrient": "钾",
+    "function": "调节血压、维持水电解质平衡、支持肌肉功能",
+    "daily_need": "成人2000-3000毫克/天",
+    "rich_sources": ["香蕉", "土豆", "菠菜", "牛油果", "豆类", "椰子水"],
+    "deficiency_symptoms": ["肌肉痉挛", "心律不齐", "血压升高", "疲劳"],
+    "tips": ["加工食品钠高钾低", "高血压患者应增加钾摄入", "肾功能不全者需控制钾"]
+  },
+  {
+    "id": "nutrition_012",
+    "category": "nutrition",
+    "nutrient": "叶酸",
+    "function": "DNA合成、细胞分裂、红细胞形成、胎儿神经管发育",
+    "daily_need": "成人400微克/天，孕妇600微克/天",
+    "rich_sources": ["绿叶蔬菜", "豆类", "肝脏", "柑橘", "全谷物"],
+    "deficiency_symptoms": ["贫血", "疲劳", "胎儿神经管缺陷风险", "消化问题"],
+    "tips": ["备孕和孕期必须补充", "叶酸易被高温破坏", "酒精会影响叶酸吸收"]
+  },
+  {
+    "id": "nutrition_013",
+    "category": "nutrition",
+    "nutrient": "维生素A",
+    "function": "维持视力、支持免疫系统、促进皮肤健康",
+    "daily_need": "男性900微克/天，女性700微克/天",
+    "rich_sources": ["胡萝卜", "红薯", "菠菜", "肝脏", "蛋黄"],
+    "deficiency_symptoms": ["夜盲症", "皮肤干燥", "免疫力下降", "生长发育受阻"],
+    "tips": ["β-胡萝卜素在体内转化为维生素A", "维生素A过量有毒", "随脂肪食用吸收更好"]
+  },
+  {
+    "id": "nutrition_014",
+    "category": "nutrition",
+    "nutrient": "益生菌",
+    "function": "维持肠道菌群平衡、支持消化、增强免疫力",
+    "daily_need": "每日摄入含益生菌食物或补充剂",
+    "rich_sources": ["酸奶", "开菲尔", "泡菜", "味噌", "酸菜"],
+    "deficiency_symptoms": ["消化问题", "频繁腹泻或便秘", "免疫力下降"],
+    "tips": ["抗生素会破坏肠道菌群", "需持续摄入维持效果", "益生元可促进益生菌生长"]
+  },
+  {
+    "id": "nutrition_015",
+    "category": "nutrition",
+    "diet_name": "DASH饮食",
+    "condition": "高血压人群",
+    "description": "Dietary Approaches to Stop Hypertension，专门为降低血压设计的饮食模式",
+    "recommend_foods": ["蔬菜水果", "全谷物", "低脂乳制品", "瘦肉禽肉", "坚果豆类"],
+    "avoid_foods": ["高盐食物", "加工肉制品", "高糖饮料", "饱和脂肪"],
+    "specific_tips": ["每日钠摄入控制在1500-2300毫克", "增加钾镁钙摄入", "限制酒精"]
+  },
+  {
+    "id": "nutrition_016",
+    "category": "nutrition",
+    "diet_name": "低GI饮食",
+    "condition": "糖尿病、血糖控制",
+    "description": "选择低升糖指数食物，帮助稳定血糖水平",
+    "recommend_foods": ["全谷物", "豆类", "非淀粉类蔬菜", "大多数水果", "坚果"],
+    "avoid_foods": ["精制谷物", "含糖饮料", "甜点", "根茎类蔬菜适量"],
+    "specific_tips": ["搭配蛋白质和脂肪可降低整体GI", "烹饪方式会影响GI", "注意份量控制"]
+  },
+  {
+    "id": "nutrition_017",
+    "category": "nutrition",
+    "diet_name": "低脂低胆固醇饮食",
+    "condition": "高血脂、心血管疾病",
+    "description": "减少饱和脂肪和胆固醇摄入，保护心血管健康",
+    "recommend_foods": ["瘦肉", "去皮禽肉", "鱼类", "植物油", "植物蛋白"],
+    "avoid_foods": ["动物内脏", "黄油", "奶油", "油炸食品", "加工肉"],
+    "specific_tips": ["选择健康的不饱和脂肪", "阅读食品标签", "适量反式脂肪也要避免"]
+  },
+  {
+    "id": "nutrition_018",
+    "category": "nutrition",
+    "diet_name": "养胃饮食",
+    "condition": "胃炎、胃溃疡、消化不良",
+    "description": "温和易消化的食物，减少胃部刺激",
+    "recommend_foods": ["粥", "面条", "蒸蛋", "山药", "南瓜", "酸奶"],
+    "avoid_foods": ["辛辣食物", "咖啡酒精", "油炸食品", "生冷食物"],
+    "specific_tips": ["少量多餐", "细嚼慢咽", "避免过冷过热", "规律饮食"]
+  },
+  {
+    "id": "nutrition_019",
+    "category": "nutrition",
+    "diet_name": "低热量高蛋白饮食",
+    "condition": "减脂、塑形",
+    "description": "控制总热量同时保证蛋白质摄入，支持肌肉维持和减脂",
+    "recommend_foods": ["鸡胸肉", "鱼肉", "蛋清", "豆制品", "蔬菜", "适量水果"],
+    "avoid_foods": ["高糖食物", "油炸食品", "精制碳水", "含糖饮料"],
+    "specific_tips": ["蛋白质摄入1.6-2.0克/公斤体重", "配合运动效果更好", "保证充足水分"]
+  },
+  {
+    "id": "nutrition_020",
+    "category": "nutrition",
+    "diet_name": "高蛋白饮食",
+    "condition": "增肌、运动员",
+    "description": "增加蛋白质摄入支持肌肉合成和恢复",
+    "recommend_foods": ["瘦肉", "鸡蛋", "鱼类", "乳制品", "豆制品", "蛋白粉"],
+    "avoid_foods": ["无特殊禁忌"],
+    "specific_tips": ["蛋白质摄入1.6-2.2克/公斤体重", "分摊到每餐", "训练后及时补充", "肾功能不全者慎用"]
+  },
+  {
+    "id": "nutrition_021",
+    "category": "nutrition",
+    "diet_name": "高纤维饮食",
+    "condition": "便秘、减脂、血糖控制",
+    "description": "增加膳食纤维摄入促进饱腹感和肠道健康",
+    "recommend_foods": ["全谷物", "蔬菜", "水果", "豆类", "坚果", "种子"],
+    "avoid_foods": ["精制谷物", "加工食品"],
+    "specific_tips": ["逐渐增加纤维摄入", "多喝水", "每日30克以上纤维", "豆类可能产生气体"]
+  },
+  {
+    "id": "nutrition_022",
+    "category": "nutrition",
+    "diet_name": "助眠饮食",
+    "condition": "失眠、睡眠质量差",
+    "description": "富含色氨酸、镁和褪黑素前体的食物帮助改善睡眠",
+    "recommend_foods": ["温牛奶", "香蕉", "杏仁", "樱桃", "燕麦", "火鸡肉"],
+    "avoid_foods": ["咖啡因", "酒精", "辛辣食物", "大餐"],
+    "specific_tips": ["睡前2-3小时完成进食", "避免大量饮水", "建立规律作息", "睡前放松"]
+  },
+  {
+    "id": "nutrition_023",
+    "category": "nutrition",
+    "diet_name": "补铁饮食",
+    "condition": "贫血、缺铁",
+    "description": "富含血红素铁和非血红素铁的食物纠正铁缺乏",
+    "recommend_foods": ["红肉", "动物肝脏", "动物血", "菠菜", "黑木耳", "红枣"],
+    "avoid_foods": ["茶和咖啡", "钙片与铁剂同服"],
+    "specific_tips": ["搭配维生素C食物促进吸收", "血红素铁吸收率更高", "避免钙铁同服", "定期监测血铁"]
+  },
+  {
+    "id": "nutrition_024",
+    "category": "nutrition",
+    "diet_name": "孕期营养",
+    "condition": "孕妇",
+    "description": "满足孕期额外营养需求，支持胎儿发育",
+    "recommend_foods": ["叶酸丰富的食物", "铁质食物", "钙质食物", "DHA来源", "优质蛋白"],
+    "avoid_foods": ["生鱼生肉", "高汞鱼类", "过量咖啡因", "酒精", "某些草药"],
+    "specific_tips": ["补充叶酸从孕前开始", "DHA支持胎儿大脑发育", "避免生食防感染", "体重控制合理"]
+  },
+  {
+    "id": "nutrition_025",
+    "category": "nutrition",
+    "diet_name": "儿童营养",
+    "condition": "儿童生长发育期",
+    "description": "支持儿童生长发育和智力发育的营养需求",
+    "recommend_foods": ["优质蛋白", "钙质食物", "铁锌丰富食物", "蔬菜水果", "全谷物"],
+    "avoid_foods": ["过多糖分", "垃圾食品", "含糖饮料", "加工零食"],
+    "specific_tips": ["多样化饮食", "培养良好饮食习惯", "不强迫进食", "控制零食"]
+  },
+  {
+    "id": "nutrition_026",
+    "category": "nutrition",
+    "diet_name": "老年营养",
+    "condition": "老年人",
+    "description": "适应老年人消化吸收能力下降和代谢减缓的营养方案",
+    "recommend_foods": ["易消化蛋白", "钙质食物", "富含纤维食物", "抗氧化食物"],
+    "avoid_foods": ["难以咀嚼的食物", "高盐高油"],
+    "specific_tips": ["少量多餐", "食物软烂易消化", "保证水分", "营养密度要高"]
+  },
+  {
+    "id": "nutrition_027",
+    "category": "nutrition",
+    "diet_name": "素食营养",
+    "condition": "素食者",
+    "description": "保证素食者获得全面营养，避免B12等营养素缺乏",
+    "recommend_foods": ["豆类", "坚果", "全谷物", "蔬菜水果", "海藻", "强化食品"],
+    "avoid_foods": ["无特殊禁忌"],
+    "specific_tips": ["必须补充维生素B12", "注意蛋白质互补", "铁锌吸收率较低需增加摄入", "必要时补充DHA"]
+  },
+  {
+    "id": "nutrition_028",
+    "category": "nutrition",
+    "nutrient": "维生素E",
+    "function": "抗氧化、保护细胞膜、支持免疫健康",
+    "daily_need": "成人15毫克/天",
+    "rich_sources": ["坚果", "种子", "植物油", "菠菜", "牛油果"],
+    "deficiency_symptoms": ["神经肌肉问题", "免疫力下降", "溶血性贫血"],
+    "tips": ["维生素E是脂溶性", "过量可能增加出血风险", "与维生素C协同抗氧化"]
+  },
+  {
+    "id": "nutrition_029",
+    "category": "nutrition",
+    "nutrient": "维生素K",
+    "function": "血液凝固、骨骼健康",
+    "daily_need": "男性120微克/天，女性90微克/天",
+    "rich_sources": ["绿叶蔬菜", "十字花科蔬菜", "发酵食品"],
+    "deficiency_symptoms": ["出血倾向", "骨质疏松", "易瘀伤"],
+    "tips": ["肠道细菌可部分合成", "抗生素会影响维生素K", "与抗凝药物相互作用"]
+  },
+  {
+    "id": "nutrition_030",
+    "category": "nutrition",
+    "nutrient": "碘",
+    "function": "合成甲状腺激素、支持代谢和发育",
+    "daily_need": "成人150微克/天",
+    "rich_sources": ["海带", "紫菜", "海鱼", "碘盐"],
+    "deficiency_symptoms": ["甲状腺肿", "代谢减慢", "发育问题", "疲劳"],
+    "tips": ["孕妇和儿童需求较高", "过量也会导致甲状腺问题", "使用碘盐需适量"]
+  },
+  {
+    "id": "nutrition_031",
+    "category": "nutrition",
+    "nutrient": "硒",
+    "function": "抗氧化、支持甲状腺功能、增强免疫",
+    "daily_need": "成人55微克/天",
+    "rich_sources": ["巴西坚果", "海鲜", "肉类", "蛋类", "谷物"],
+    "deficiency_symptoms": ["心肌病", "关节痛", "免疫力下降"],
+    "tips": ["巴西坚果含硒极高注意适量", "土壤含量影响食物硒含量", "过量会导致硒中毒"]
+  },
+  {
+    "id": "nutrition_032",
+    "category": "nutrition",
+    "nutrient": "胆碱",
+    "function": "细胞膜结构、神经传递、脂肪代谢",
+    "daily_need": "男性550毫克/天，女性425毫克/天",
+    "rich_sources": ["鸡蛋", "大豆", "肝脏", "牛肉", "小麦胚芽"],
+    "deficiency_symptoms": ["肝功能异常", "肌肉损伤", "记忆力下降"],
+    "tips": ["孕期需求增加", "卵磷脂是良好来源", "素食者容易缺乏"]
+  },
+  {
+    "id": "nutrition_033",
+    "category": "nutrition",
+    "nutrient": "番茄红素",
+    "function": "强抗氧化、保护前列腺、支持心血管",
+    "daily_need": "无明确标准，建议从食物获取",
+    "rich_sources": ["番茄", "西瓜", "粉红葡萄柚", "番石榴"],
+    "deficiency_symptoms": ["无特异性症状"],
+    "tips": ["加工番茄吸收率更高", "与脂肪同食增加吸收", "烹饪可释放番茄红素"]
+  },
+  {
+    "id": "nutrition_034",
+    "category": "nutrition",
+    "nutrient": "花青素",
+    "function": "抗氧化、抗炎、保护视力、改善认知",
+    "daily_need": "无明确标准",
+    "rich_sources": ["蓝莓", "紫甘蓝", "紫薯", "黑莓", "茄子"],
+    "deficiency_symptoms": ["无特异性症状"],
+    "tips": ["深色蔬果富含花青素", "烹饪可能降低含量", "新鲜冷冻都很好"]
+  },
+  {
+    "id": "nutrition_035",
+    "category": "nutrition",
+    "nutrient": "辅酶Q10",
+    "function": "能量产生、抗氧化、心脏健康",
+    "daily_need": "体内可合成，30岁以上可补充",
+    "rich_sources": ["器官肉", "牛肉", "沙丁鱼", "菠菜", "花生"],
+    "deficiency_symptoms": ["疲劳", "心功能下降", "牙龈疾病"],
+    "tips": ["年龄增长合成减少", "他汀类药物会降低CoQ10", "与脂肪同食吸收更好"]
+  },
+  {
+    "id": "nutrition_036",
+    "category": "nutrition",
+    "diet_name": "保肝饮食",
+    "condition": "肝功能保护",
+    "description": "支持肝脏解毒和修复的营养方案",
+    "recommend_foods": ["十字花科蔬菜", "大蒜", "绿茶", "坚果", "鱼类"],
+    "avoid_foods": ["酒精", "高糖食物", "油炸食品", "霉变食物"],
+    "specific_tips": ["控制总热量", "优质蛋白支持修复", "避免黄曲霉素", "充足水分"]
+  },
+  {
+    "id": "nutrition_037",
+    "category": "nutrition",
+    "diet_name": "明目饮食",
+    "condition": "视力保护",
+    "description": "保护眼睛健康、预防眼病的营养方案",
+    "recommend_foods": ["胡萝卜", "深绿色蔬菜", "鱼类", "蓝莓", "鸡蛋"],
+    "avoid_foods": ["高糖食物", "反式脂肪"],
+    "specific_tips": ["叶黄素和玉米黄质很重要", "Omega-3支持视网膜健康", "控制屏幕时间", "定期休息"]
+  },
+  {
+    "id": "nutrition_038",
+    "category": "nutrition",
+    "diet_name": "美肤饮食",
+    "condition": "皮肤健康",
+    "description": "从内而外改善皮肤质量的营养方案",
+    "recommend_foods": ["富含维生素C食物", "富含维生素E食物", "健康脂肪", "胶原蛋白食物"],
+    "avoid_foods": ["高糖食物", "油炸食品", "过多乳制品"],
+    "specific_tips": ["抗氧化很重要", "水分充足", "控制糖分抗糖化", "优质蛋白支持胶原蛋白"]
+  },
+  {
+    "id": "nutrition_039",
+    "category": "nutrition",
+    "diet_name": "免疫增强饮食",
+    "condition": "免疫力提升",
+    "description": "通过营养支持免疫系统功能",
+    "recommend_foods": ["维生素C丰富食物", "锌丰富食物", "益生菌", "大蒜", "姜黄"],
+    "avoid_foods": ["高糖食物", "过度加工食品"],
+    "specific_tips": ["维生素D对免疫很重要", "肠道健康影响免疫", "抗氧化营养素", "充足睡眠"]
+  },
+  {
+    "id": "nutrition_040",
+    "category": "nutrition",
+    "diet_name": "抗疲劳饮食",
+    "condition": "慢性疲劳",
+    "description": "通过持续稳定的能量供给对抗疲劳",
+    "recommend_foods": ["全谷物", "瘦肉", "坚果", "蔬菜水果", "充足水分"],
+    "avoid_foods": ["精制糖", "咖啡因过量", "高糖饮料"],
+    "specific_tips": ["稳定血糖水平", "B族维生素支持能量代谢", "铁防贫血性疲劳", "规律饮食"]
+  }
+]
