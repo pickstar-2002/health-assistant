@@ -3,6 +3,8 @@ import cors from 'cors';
 
 import chatRoutes from './routes/chat.routes';
 import profileRoutes from './routes/profile.routes';
+import memoryRoutes from './routes/memory.routes';
+import knowledgeRoutes from './routes/knowledge.routes';
 import { errorHandler, loggerMiddleware } from './middleware/error.middleware';
 import ragService from './services/ragService';
 
@@ -14,6 +16,8 @@ app.use(loggerMiddleware);
 
 app.use('/api/chat', chatRoutes);
 app.use('/api/profile', profileRoutes);
+app.use('/api/memory', memoryRoutes);
+app.use('/api/knowledge', knowledgeRoutes);
 
 app.get('/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
