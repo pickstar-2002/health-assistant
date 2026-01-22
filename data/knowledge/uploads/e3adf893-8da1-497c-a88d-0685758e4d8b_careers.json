@@ -1,0 +1,74 @@
+[
+  {
+    "id": "career_001",
+    "category": "tech",
+    "title": "前端开发工程师",
+    "description": "负责网站和应用程序用户界面的开发",
+    "skills": ["HTML/CSS", "JavaScript", "React/Vue", "TypeScript"],
+    "salary_range": "8K-30K",
+    "education": "专科及以上",
+    "pros": ["需求量大", "入门相对容易", "远程工作机会多"],
+    "cons": ["技术更新快", "需要持续学习"],
+    "development_path": ["初级前端", "中级前端", "高级前端", "技术专家/架构师"]
+  },
+  {
+    "id": "career_002",
+    "category": "tech",
+    "title": "后端开发工程师",
+    "description": "负责服务器端逻辑和数据库设计",
+    "skills": ["Java/Python/Go", "数据库", "API设计", "微服务"],
+    "salary_range": "10K-35K",
+    "education": "本科及以上",
+    "pros": ["薪资较高", "职业发展稳定", "可转架构师"],
+    "cons": ["学习曲线陡峭", "压力较大"],
+    "development_path": ["初级后端", "中级后端", "高级后端", "技术专家/架构师"]
+  },
+  {
+    "id": "career_003",
+    "category": "tech",
+    "title": "全栈开发工程师",
+    "description": "同时掌握前端和后端开发技能",
+    "skills": ["前端技术", "后端技术", "DevOps", "系统设计"],
+    "salary_range": "12K-40K",
+    "education": "本科及以上",
+    "pros": ["就业面广", "独立完成项目", "薪资上限高"],
+    "cons": ["学习内容多", "需要深度与广度平衡"],
+    "development_path": ["初级全栈", "中级全栈", "高级全栈", "技术负责人"]
+  },
+  {
+    "id": "career_004",
+    "category": "data",
+    "title": "数据分析师",
+    "description": "收集、处理和分析数据，为决策提供支持",
+    "skills": ["SQL", "Python/R", "数据可视化", "统计学"],
+    "salary_range": "10K-30K",
+    "education": "本科及以上",
+    "pros": ["需求增长快", "各行各业都需要", "工作相对稳定"],
+    "cons": ["需要业务理解", "数据质量影响大"],
+    "development_path": ["初级分析师", "中级分析师", "高级分析师", "数据科学家"]
+  },
+  {
+    "id": "career_005",
+    "category": "product",
+    "title": "产品经理",
+    "description": "负责产品的规划、设计和全生命周期管理",
+    "skills": ["需求分析", "产品设计", "项目管理", "用户研究"],
+    "salary_range": "12K-40K",
+    "education": "本科及以上",
+    "pros": ["职业发展空间大", "综合能力提升快", "影响力大"],
+    "cons": ["责任压力大", "沟通协调工作多"],
+    "development_path": ["产品助理", "产品经理", "高级产品经理", "产品总监"]
+  },
+  {
+    "id": "career_006",
+    "category": "design",
+    "title": "UI/UX设计师",
+    "description": "设计用户界面和用户体验",
+    "skills": ["视觉设计", "交互设计", "用户研究", "原型设计"],
+    "salary_range": "8K-25K",
+    "education": "专科及以上",
+    "pros": ["创意空间大", "作品直观可见", "远程机会多"],
+    "cons": ["需求主观性强", "需要不断更新作品集"],
+    "development_path": ["初级设计师", "设计师", "高级设计师", "设计总监"]
+  }
+]

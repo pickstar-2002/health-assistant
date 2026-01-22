@@ -6,6 +6,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import knowledgeService from '../../services/knowledgeService';
 import type { KnowledgeFile } from '../../services/knowledgeService';
+import { useToast, ToastContainer } from '../UI/Toast';
 
 export const KnowledgeManagement: React.FC = () => {
   const [files, setFiles] = useState<KnowledgeFile[]>([]);
@@ -17,6 +18,9 @@ export const KnowledgeManagement: React.FC = () => {
   const [uploadTags, setUploadTags] = useState<string>('');
   const [previewFile, setPreviewFile] = useState<KnowledgeFile | null>(null);
   const [previewContent, setPreviewContent] = useState<any>(null);
+  const [deleteConfirm, setDeleteConfirm] = useState<{ id: string; name: string } | null>(null);
+
+  const toast = useToast();
 
   // 加载文件列表
   const loadFiles = useCallback(async () => {
@@ -71,7 +75,7 @@ export const KnowledgeManagement: React.FC = () => {
   // 上传文件
   const uploadFile = async (file: File) => {
     if (!file.name.endsWith('.json')) {
-      alert('只支持JSON格式的文件');
+      toast.error('只支持JSON格式的文件');
       return;
     }
 
@@ -80,31 +84,41 @@ export const KnowledgeManagement: React.FC = () => {
     const result = await knowledgeService.uploadFile(file, uploadCategory, tags);
 
     if (result.success) {
-      alert('上传成功！');
+      toast.success('文件上传成功！');
       loadFiles();
       loadCategories();
       setUploadTags('');
     } else {
-      alert(`上传失败: ${result.error}`);
+      toast.error(`上传失败: ${result.error}`);
     }
 
     setIsUploading(false);
   };
 
   // 删除文件
-  const handleDelete = async (fileId: string, filename: string) => {
-    if (confirm(`确定要删除 "${filename}" 吗？`)) {
-      const success = await knowledgeService.deleteFile(fileId);
-      if (success) {
-        loadFiles();
-        if (previewFile?.id === fileId) {
-          setPreviewFile(null);
-          setPreviewContent(null);
-        }
-      } else {
-        alert('删除失败');
+  const handleDeleteClick = (fileId: string, filename: string) => {
+    setDeleteConfirm({ id: fileId, name: filename });
+  };
+
+  const confirmDelete = async () => {
+    if (!deleteConfirm) return;
+
+    const success = await knowledgeService.deleteFile(deleteConfirm.id);
+    if (success) {
+      toast.success('文件已删除');
+      loadFiles();
+      if (previewFile?.id === deleteConfirm.id) {
+        setPreviewFile(null);
+        setPreviewContent(null);
       }
+    } else {
+      toast.error('删除失败');
     }
+    setDeleteConfirm(null);
+  };
+
+  const cancelDelete = () => {
+    setDeleteConfirm(null);
   };
 
   // 预览文件
@@ -133,6 +147,35 @@ export const KnowledgeManagement: React.FC = () => {
 
   return (
     <div className="flex h-full">
+      {/* Toast容器 */}
+      <ToastContainer toasts={toast.toasts} onRemove={toast.remove} />
+
+      {/* 删除确认对话框 */}
+      {deleteConfirm && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+          <div className="bg-white rounded-xl shadow-2xl p-6 max-w-sm mx-4 animate-[scaleIn_0.2s_ease-out]">
+            <h3 className="text-lg font-semibold text-gray-800 mb-2">确认删除</h3>
+            <p className="text-gray-600 mb-6">
+              确定要删除 <span className="font-medium text-gray-800">"{deleteConfirm.name}"</span> 吗？此操作无法撤销。
+            </p>
+            <div className="flex justify-end space-x-3">
+              <button
+                onClick={cancelDelete}
+                className="px-4 py-2 rounded-lg text-gray-600 hover:bg-gray-100 transition font-medium"
+              >
+                取消
+              </button>
+              <button
+                onClick={confirmDelete}
+                className="px-4 py-2 rounded-lg bg-red-500 text-white hover:bg-red-600 transition font-medium"
+              >
+                删除
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* 左侧：文件列表 */}
       <div className="w-1/2 border-r border-gray-200 flex flex-col">
         {/* 上传区域 */}
@@ -291,7 +334,7 @@ export const KnowledgeManagement: React.FC = () => {
                     <button
                       onClick={(e) => {
                         e.stopPropagation();
-                        handleDelete(file.id, file.filename);
+                        handleDeleteClick(file.id, file.filename);
                       }}
                       className="ml-3 p-1.5 text-red-500 hover:bg-red-50 rounded-lg transition"
                     >

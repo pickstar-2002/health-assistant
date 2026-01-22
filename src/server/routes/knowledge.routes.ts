@@ -97,7 +97,7 @@ router.get('/:fileId/content', (req, res) => {
 /**
  * 上传知识文件
  */
-router.post('/upload', upload.single('file'), (req, res) => {
+router.post('/upload', upload.single('file'), async (req, res) => {
   try {
     if (!req.file) {
       return res.status(400).json({ success: false, error: '未上传文件' });
@@ -106,7 +106,7 @@ router.post('/upload', upload.single('file'), (req, res) => {
     const { category, tags } = req.body;
     const tagsArray = tags ? JSON.parse(tags) : undefined;
 
-    const result = knowledgeService.uploadFile(
+    const result = await knowledgeService.uploadFile(
       req.file,
       category || 'uncategorized',
       tagsArray

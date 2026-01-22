@@ -1,0 +1,33 @@
+[
+  {
+    "id": "5b6c02e1-1d99-488c-a30c-8648d08d0aa7",
+    "filename": "symptoms.json",
+    "category": "symptoms",
+    "uploadDate": 1766673206127,
+    "size": 32276,
+    "documentCount": 50,
+    "tags": [
+      "系统预设"
+    ]
+  },
+  {
+    "id": "d50ac98b-89aa-4395-8dea-1227bd70b11e",
+    "filename": "nutrition.json",
+    "category": "nutrition",
+    "uploadDate": 1766673518892,
+    "size": 20103,
+    "documentCount": 40,
+    "tags": [
+      "系统预设"
+    ]
+  },
+  {
+    "id": "e3adf893-8da1-497c-a88d-0685758e4d8b",
+    "filename": "careers.json",
+    "category": "nutrition",
+    "uploadDate": 1769075596268,
+    "size": 3195,
+    "documentCount": 6,
+    "tags": []
+  }
+]
